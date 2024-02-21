@@ -20,8 +20,7 @@ const { prepareTest,
     unitDatakWh,
     conversionDatakWh,
     meterDatakWhGroups,
-    groupDatakWh, 
-    meterDatakWh} = require('../../util/readingsUtils');
+    groupDatakWh } = require('../../util/readingsUtils');
 
 mocha.describe('readings API', () => {
     mocha.describe('readings test, test if data returned by API is as expected', () => {
